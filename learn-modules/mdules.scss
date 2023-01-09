@@ -1,0 +1,45 @@
+// @import & @use
+@import 'testing';
+@import 'testing2';
+
+.header ul {
+    @include inline-list-mdules();
+
+    li {
+        background-color: black;
+        padding: 0.7em;
+
+        a {
+            color: #fff;
+        }
+    }
+}
+
+.footer ul {
+    @include inline-list-mdules();
+
+    li {
+        background-color: pink;
+        padding: 0.4em;
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+
+.container {
+    @include flex-box-mdules(row-reverse, space-evenly);
+    width: 600px;
+    height: 400px;
+    background-color: #eaeaea;
+
+    .box {
+        width: 60px;
+        height: 60px;
+        background-color: aquamarine;
+        text-align: center;
+        line-height: 60px;
+    }
+}

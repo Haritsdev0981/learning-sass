@@ -1,0 +1,6 @@
+@mixin flex-box-mdules($directions: row, $space: center) {
+    display: flex;
+    justify-content: $space;
+    align-items: center;
+    flex-direction: $directions;
+}
