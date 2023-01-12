@@ -1,0 +1,141 @@
+body {
+  min-height: 1000px;
+}
+
+.square-profile {
+  width: 200px;
+  height: 200px;
+  border: 5px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.circle-profile {
+  width: 80px;
+  height: 80px;
+  border: 5px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.right {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1em;
+  border-left-color: black;
+}
+
+.gradient {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.gradient li:nth-child(1) {
+  padding: 4px;
+  background-color: #fa897c;
+}
+.gradient li:nth-child(2) {
+  padding: 4px;
+  background-color: #fb9286;
+}
+.gradient li:nth-child(3) {
+  padding: 4px;
+  background-color: #fb9b90;
+}
+.gradient li:nth-child(4) {
+  padding: 4px;
+  background-color: #fba399;
+}
+.gradient li:nth-child(5) {
+  padding: 4px;
+  background-color: #fcaca3;
+}
+.gradient li:nth-child(6) {
+  padding: 4px;
+  background-color: #fcb5ad;
+}
+.gradient li:nth-child(7) {
+  padding: 4px;
+  background-color: #fcbeb7;
+}
+.gradient li:nth-child(8) {
+  padding: 4px;
+  background-color: #fdc7c1;
+}
+.gradient li:nth-child(9) {
+  padding: 4px;
+  background-color: #fdd0cb;
+}
+.gradient li:nth-child(10) {
+  padding: 4px;
+  background-color: #fdd9d5;
+}
+
+.gradient {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.gradient li:nth-child(1) {
+  padding: 4px;
+  background-color: #fa7768;
+}
+.gradient li:nth-child(2) {
+  padding: 4px;
+  background-color: #f96e5e;
+}
+.gradient li:nth-child(3) {
+  padding: 4px;
+  background-color: #f96554;
+}
+.gradient li:nth-child(4) {
+  padding: 4px;
+  background-color: #f95d4b;
+}
+.gradient li:nth-child(5) {
+  padding: 4px;
+  background-color: #f85441;
+}
+.gradient li:nth-child(6) {
+  padding: 4px;
+  background-color: #f84b37;
+}
+.gradient li:nth-child(7) {
+  padding: 4px;
+  background-color: #f8422d;
+}
+.gradient li:nth-child(8) {
+  padding: 4px;
+  background-color: #f73923;
+}
+.gradient li:nth-child(9) {
+  padding: 4px;
+  background-color: #f73019;
+}
+.gradient li:nth-child(10) {
+  padding: 4px;
+  background-color: #f7270f;
+}
+
+.socials {
+  font-size: 2em;
+  font-family: arial;
+  font-weight: bold;
+}
+.socials .youtube {
+  color: rgb(228, 6, 6);
+}
+.socials .facebook {
+  color: rgb(29, 50, 240);
+}
+.socials .twitch {
+  color: rgb(237, 28, 230);
+}
+.socials .twitter {
+  color: rgb(10, 119, 243);
+}
+.socials .instagram {
+  color: rgb(182, 235, 23);
+}/*# sourceMappingURL=fc.css.map */
