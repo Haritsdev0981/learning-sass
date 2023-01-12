@@ -1,0 +1,37 @@
+//base
+$warna-dasar:salmon;
+
+h1 {
+    color: $warna-dasar;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+//build in Modules: Color
+/* adjust-color($color: #000000, $red: null, $green: null, $blue: null, $hue: null, $saturation: null, $lightness: null, $alpha: null)*/
+
+/*
+adjust-hue mengatur posisi si color di roda warna.
+eg: color: adjust-hue($warna-dasar, $degrees: 30deg);
+*/
+
+/*
+complement yaitu memanggil lawan warna dari si warna dasar, 180 derajat
+*/
+
+// darken membuat warna seberapa gelapnya
+// ligthen membuat warna seberapa terangnya
+// saturate membuat warna dasar semakin jelas
+// desaturate membuat warna dasar semakin hilang
+// grayscale membuat warna dasar langsung menjadi desaturate tidak ada diberi kadar
+// mix menyampurkan warna satu dengan warna yang lain
+/*
+fade-in membuat sebuah element transparant menjadi solid (0-1)-> transparansi
+eg: color: fade-in(rgba(250,128,114,0.2),0.5)
+*/
+// fade-out membuat yang awalnya solid menjadi transparant
+
+h1 {
+    // color: adjust-color($color: $warna-dasar, $green: 100, $blue: 100, $red: -50);
+}
